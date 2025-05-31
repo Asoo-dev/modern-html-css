@@ -169,6 +169,7 @@ Learn Section
 
 .learn-section-container {
   max-width: 120rem;
+  padding: 0 2.4rem;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -202,8 +203,9 @@ Learn Section
 }
 
 .learn-list {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2.4rem;
 }
 
 .learn-list-item {
@@ -213,6 +215,8 @@ Learn Section
 }
 
 .learn-list-text {
+  font-size: 1.6rem;
+  line-height: 1.6;
 }
 
 /* 
