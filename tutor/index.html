@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
     <!--  -->
@@ -18,23 +18,23 @@
   </head>
   <body>
     <header class="header">
-      <div class="header_container">
+      <div class="header-container">
         <a href="">
           <img src="images//logo.svg" alt="" class="logo" />
         </a>
         <nav>
-          <ul class="header_nav">
-            <li class="nav_item"><a href="#" class="nav_link">Home</a></li>
-            <li class="nav_item"><a href="#" class="nav_link">Chapters</a></li>
-            <li class="nav_item"><a href="#" class="nav_link">Summary</a></li>
-            <li class="nav_item"><a href="#" class="nav_link">Takeaway</a></li>
-            <li class="nav_item"><a href="#" class="nav_link">Author</a></li>
-            <li class="nav_item"><a href="#" class="nav_link">Contact</a></li>
-            <li class="nav_item">
-              <a href="#" class="nav_link"
+          <ul class="header-nav">
+            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Chapters</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Summary</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Takeaway</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Author</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"
                 ><svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="header_link_icon"
+                  class="header-link-icon"
                   viewBox="0 0 512 512"
                 >
                   <path
@@ -42,11 +42,11 @@
                   /></svg
               ></a>
             </li>
-            <li class="nav_item">
-              <a href="#" class="nav_link">
+            <li class="nav-item">
+              <a href="#" class="nav-link">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="header_link_icon"
+                  class="header-link-icon"
                   viewBox="0 0 512 512"
                 >
                   <path
@@ -61,64 +61,116 @@
       </div>
     </header>
     <main>
-      <section class="hero">
-        <div>
-          <div>
-            <h1>
+      <section class="hero-section">
+        <div class="hero-section-container">
+          <div class="hero-section-content">
+            <h1 class="hero-section-heading">
               Create Your <br />
               Own Video <br />
               Courses
             </h1>
-            <p>
+            <p class="hero-section-text">
               Dive deep into the world of creativity and learn to craft stunning
               videos that captivate your audience.
             </p>
-            <a href="#">$29 Get Course</a>
+            <a href="#" class="button">$29 Get Course</a>
           </div>
+          <img src="images/header-course.png" alt="" class="hero-section-img" />
         </div>
-        <div><img src="images/header-course.png" alt="" /></div>
+        <!-- <img src="images/hero-decoration.svg" alt="" />0 -->
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="none"
+          viewBox="0 0 1920 192.275"
+        >
+          <defs></defs>
+          <title>frame-decoration</title>
+          <path
+            d="M0,158.755s63.9,52.163,179.472,50.736c121.494-1.5,185.839-49.738,305.984-49.733,109.21,0,181.491,51.733,300.537,50.233,123.941-1.562,225.214-50.126,390.43-50.374,123.821-.185,353.982,58.374,458.976,56.373,217.907-4.153,284.6-57.236,284.6-57.236V351.03H0V158.755Z"
+            transform="translate(0 -158.755)"
+          ></path>
+        </svg>
       </section>
 
-      <section class="">
-        <div>
-          <h2>What Will You Learn?</h2>
-          <p>
+      <section class="learn-section">
+        <div class="learn-section-container">
+          <div class="learn-section-heading-container">
+            <h2 class="learn-section-heading">What Will You Learn?</h2>
+            <div class="heading-line"></div>
+          </div>
+          <p class="learn-section-text">
             Embark on a journey of learning with our comprehensive video
             courses. Discover the secrets of successful video creation and
             enhance your skills.
           </p>
-          <ul>
-            <li>
-              <img src="images/description-1.jpg" alt="" />
-              <p>Set Clear Objectives and Goals</p>
+          <ul class="learn-list">
+            <li class="learn-list-item">
+              <img
+                class="learn-list-img"
+                src="images/description-1.jpg"
+                alt=""
+              />
+              <p class="learn-list-text">Set Clear Objectives and Goals</p>
             </li>
-            <li>
-              <img src="images/description-2.jpg" alt="" />
-              <p>Plan Layout And Design Elements</p>
+            <li class="learn-list-item">
+              <img
+                class="learn-list-img"
+                src="images/description-2.jpg"
+                alt=""
+              />
+              <p class="learn-list-text">Plan Layout And Design Elements</p>
             </li>
-            <li>
-              <img src="images/description-3.jpg" alt="" />
-              <p>Sketch Creative Concepts</p>
+            <li class="learn-list-item">
+              <img
+                class="learn-list-img"
+                src="images/description-3.jpg"
+                alt=""
+              />
+              <p class="learn-list-text">Sketch Creative Concepts</p>
             </li>
-            <li>
-              <img src="images/description-4.jpg" alt="" />
-              <p>Establish Strong Call-to-Actions</p>
+            <li class="learn-list-item">
+              <img
+                class="learn-list-img"
+                src="images/description-4.jpg"
+                alt=""
+              />
+              <p class="learn-list-text">Establish Strong Call-to-Actions</p>
             </li>
-            <li>
-              <img src="images/description-5.jpg" alt="" />
-              <p>Choose High-Quality HTML Templates</p>
+            <li class="learn-list-item">
+              <img
+                class="learn-list-img"
+                src="images/description-5.jpg"
+                alt=""
+              />
+              <p class="learn-list-text">Choose High-Quality HTML Templates</p>
             </li>
-            <li>
-              <img src="images/description-6.jpg" alt="" />
-              p Create Impressive Layout Previews
+            <li class="learn-list-item">
+              <img
+                class="learn-list-img"
+                src="images/description-6.jpg"
+                alt=""
+              />
+              <p class="learn--listtext">Create Impressive Layout Previews</p>
             </li>
-            <li>
-              <img src="images/description-7.jpg" alt="" />
-              <p>Master Landing Page Coding Techniques</p>
+            <li class="learn-list-item">
+              <img
+                class="learn-list-img"
+                src="images/description-7.jpg"
+                alt=""
+              />
+              <p class="learn-list-text">
+                Master Landing Page Coding Techniques
+              </p>
             </li>
-            <li>
-              <img src="images/description-8.jpg" alt="" />
-              <p>Launch Your Project Successfully Online</p>
+            <li class="learn-list-item">
+              <img
+                class="learn-list-img"
+                src="images/description-8.jpg"
+                alt=""
+              />
+              <p class="learn-list-text">
+                Launch Your Project Successfully Online
+              </p>
             </li>
           </ul>
         </div>
@@ -267,10 +319,14 @@
         </div>
       </section>
 
-      <section class="">
-        <div>
-          <h1></h1>
-          <p></p>
+      <section class="takeaways-section">
+        <div class="takeaways-section-container">
+          <h1 class="takeaways-section-heading">Key Takeaways</h1>
+          <p class="takeaways-section-text">
+            This section highlights some of the key insights and learnings
+            you'll gain from the course. Take a look at what you can expect to
+            achieve:
+          </p>
           <ul>
             <li>
               <img src="images/testimonial-1.jpg" alt="" />
