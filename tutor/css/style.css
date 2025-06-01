@@ -701,6 +701,63 @@ Contact Section
 =====================
 */
 
+.contact-section {
+  padding: 8rem 0;
+}
+
+.contact-section-container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 8rem 2.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  background-color: #f9fafb;
+  border: 1px solid #eee;
+}
+
+.contact-section-heading-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  align-items: center;
+}
+
+.contact-section-heading {
+  font-size: 4.8rem;
+  font-weight: 700;
+}
+
+.contact-section-text {
+  max-width: 90rem;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.contact-section-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  width: 50rem;
+}
+
+.contact-section-form-input {
+  width: 100%;
+  padding: 2.4rem 4.8rem;
+  border: 1px solid #000;
+  border-radius: 100rem;
+}
+
+.contact-section-form-input::placeholder {
+  font-family: inherit;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #808080;
+}
+
 /* 
 =====================
 Contact Section End
