@@ -697,15 +697,15 @@ Stats Section End
 
 /* 
 =====================
-Contact Section 
+Newsletter Section 
 =====================
 */
 
-.contact-section {
+.newsletter-section {
   padding: 8rem 0;
 }
 
-.contact-section-container {
+.newsletter-section-container {
   max-width: 120rem;
   margin: 0 auto;
   padding: 8rem 2.4rem;
@@ -717,26 +717,26 @@ Contact Section
   border: 1px solid #eee;
 }
 
-.contact-section-heading-container {
+.newsletter-section-heading-container {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
   align-items: center;
 }
 
-.contact-section-heading {
+.newsletter-section-heading {
   font-size: 4.8rem;
   font-weight: 700;
 }
 
-.contact-section-text {
+.newsletter-section-text {
   max-width: 90rem;
   font-size: 1.6rem;
   line-height: 1.6;
   text-align: center;
 }
 
-.contact-section-form {
+.newsletter-section-form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -744,14 +744,14 @@ Contact Section
   width: 50rem;
 }
 
-.contact-section-form-input {
+.newsletter-section-form-input {
   width: 100%;
   padding: 2.4rem 4.8rem;
   border: 1px solid #000;
   border-radius: 100rem;
 }
 
-.contact-section-form-input::placeholder {
+.newsletter-section-form-input::placeholder {
   font-family: inherit;
   font-size: 1.6rem;
   font-weight: 700;
@@ -760,7 +760,7 @@ Contact Section
 
 /* 
 =====================
-Contact Section End
+Newsletter Section End
 =====================
 */
 
@@ -832,5 +832,35 @@ Footer Section
 /* 
 =====================
 Footer Section End
+=====================
+*/
+
+/* 
+=====================
+Contact Section 
+=====================
+*/
+
+.contact-hero-section {
+  background-color: #fc5d66;
+  padding: 20rem 0 12rem;
+}
+
+.contact-hero-section-container {
+  max-width: 90rem;
+  padding: 0 2.4rem;
+  margin: 0 auto;
+}
+
+.contact-hero-section-heading {
+  font-size: 6.4rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #fff;
+}
+
+/* 
+=====================
+Contact Section End
 =====================
 */
