@@ -193,7 +193,7 @@ Learn Section
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1.6rem;
+  gap: 1.2rem;
 }
 
 .learn-section-heading {
@@ -256,7 +256,7 @@ Chapters Section
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 1.6rem;
+  gap: 1.2rem;
 }
 
 .chapters-section-heading {
@@ -332,7 +332,7 @@ Course Summary
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 1.6rem;
+  gap: 1.2rem;
 }
 
 .summary-section-heading {
@@ -434,7 +434,7 @@ Course Target End
 
 /* 
 =====================
- .Takeawayes Section
+Takeawayes Section
 =====================
 */
 
@@ -456,7 +456,7 @@ Course Target End
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1.6rem;
+  gap: 1.2rem;
 }
 
 .takeaways-section-heading {
@@ -493,6 +493,140 @@ Course Target End
 
 /* 
 =====================
- .Takeawayes  End
+Takeawayes  End
+=====================
+*/
+
+/* 
+=====================
+Course Details Section 
+=====================
+*/
+.details-section {
+  padding: 8rem 0 4rem;
+}
+
+.details-section-container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 2.4rem;
+  display: flex;
+  align-items: center;
+  gap: 8rem;
+}
+
+.details-section-img {
+  width: 50rem;
+}
+
+.details-section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.4rem;
+}
+
+.details-section-heading-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.details-section-heading {
+  font-size: 4.8rem;
+  font-weight: 700;
+}
+
+.details-section-text {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+/* 
+=====================
+Course Details Section end
+=====================
+*/
+
+/* 
+=====================
+Author Info Section 
+=====================
+*/
+.info-section {
+  padding: 4rem 0 8rem;
+}
+
+.info-section-container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 2.4rem;
+  display: flex;
+  align-items: center;
+  gap: 8rem;
+}
+
+.info-section-img {
+  width: 50rem;
+}
+
+.info-section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.4rem;
+}
+
+.info-section-heading-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.info-section-heading {
+  font-size: 4.8rem;
+  font-weight: 700;
+}
+
+.info-section-text {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  list-style: none;
+}
+.info-list-item {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.info-img {
+  width: 2.4rem;
+}
+
+/* 
+=====================
+Author Info Section end
+=====================
+*/
+
+/* 
+=====================
+Stats Section 
+=====================
+*/
+
+
+
+/* 
+=====================
+Stats Section End
 =====================
 */
