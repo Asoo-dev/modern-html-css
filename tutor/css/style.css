@@ -19,6 +19,10 @@ img {
   max-width: 100%;
 }
 
+strong {
+  font-weight: 700;
+}
+
 /*  */
 .heading-line {
   height: 3px;
@@ -262,7 +266,7 @@ Chapters Section
 
 .chapters-section-text {
   max-width: 90rem;
-  font-size: 1.6rem;
+  font-size: 2.4rem;
   line-height: 1.6;
   text-align: center;
 }
@@ -363,4 +367,67 @@ Course Summary
 /* 
 =====================
 Course Summary =====================
+*/
+
+/* 
+=====================
+Course Target 
+=====================
+*/
+
+.target-section {
+}
+
+.target-section-container {
+  display: flex;
+}
+
+.target-section-img {
+  background-image: url(../images/audience.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-basis: 50%;
+}
+
+.target-section-content {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+  gap: 3.2rem;
+  padding: 8rem 4rem;
+  background-color: #fc5d66;
+  color: #fff;
+}
+
+.target-section-heading {
+  font-size: 4.8rem;
+  font-weight: 700;
+}
+
+.target-section-text {
+  font-size: 2.4rem;
+  line-height: 1.6;
+}
+.target-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  list-style: none;
+  font-size: 2.4rem;
+}
+
+.target-list-item {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+}
+
+.target-list-img {
+  width: 3.2rem;
+}
+
+/* 
+=====================
+Course Target End 
+=====================
 */
