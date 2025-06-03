@@ -120,6 +120,18 @@ Header
   fill: #ffc05a;
 }
 
+.menu-button {
+  background: none;
+  border: none;
+  display: none;
+}
+
+.menu {
+  display: block;
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
 svg {
   display: block;
 }
@@ -1026,6 +1038,14 @@ Media Queries
 }
 
 @media (max-width: 48rem) {
+  /* Header */
+  .menu-button {
+    display: block;
+  }
+
+  .nav {
+    display: none;
+  }
   /* Hero Section */
 
   /* Learn Section */
@@ -1050,6 +1070,10 @@ Media Queries
   /* Header */
   .header-container {
     height: 6rem;
+  }
+
+  .logo {
+    height: 3rem;
   }
 
   /* Hero Section */
