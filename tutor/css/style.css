@@ -423,7 +423,6 @@ Course Target
 .target-section-heading {
   font-size: 4.8rem;
   font-weight: 700;
-  text-align: center;
 }
 
 .target-section-text {
@@ -440,6 +439,7 @@ Course Target
 
 .target-list-item {
   display: flex;
+  align-items: center;
   gap: 1.2rem;
 }
 
@@ -558,7 +558,6 @@ Course Details Section
 .details-section-heading {
   font-size: 4.8rem;
   font-weight: 700;
-  text-align: center;
 }
 
 .details-section-text {
@@ -610,7 +609,6 @@ Author Info Section
 .info-section-heading {
   font-size: 4.8rem;
   font-weight: 700;
-  text-align: center;
 }
 
 .info-section-text {
@@ -651,6 +649,7 @@ Stats Section
 .stats-section {
   padding: 8rem 0;
   background-image: url(../images/stats-background.jpg);
+  background-size: cover;
 }
 
 .stats-section-container {
@@ -757,7 +756,7 @@ Newsletter Section
   flex-direction: column;
   align-items: center;
   gap: 4rem;
-  width: 50rem;
+  max-width: 50rem;
 }
 
 .newsletter-section-form-input {
@@ -1015,7 +1014,7 @@ Media Queries
   }
 
   .takeaways-list-img {
-    max-width: 10%;
+    max-width: 1.6rem%;
   }
   /* Course Details Section */
   .details-section-container {
@@ -1039,52 +1038,121 @@ Media Queries
   /* }Chapters Section */
 
   /* Audiance Section */
- 
+  .target-section-img {
+    display: none;
+  }
+
+  .target-section-content {
+    flex-basis: 100%;
+  }
   /* Takeaways Section */
 
   /* Course Details Section */
 
   /* Stats Section */
 }
-@media (max-width: ) {
+@media (max-width: 36rem) {
   /* Hero Section */
+  .hero-section-heading {
+    font-size: 4rem;
+  }
 
+  .hero-section-text {
+    font-size: 1.6rem;
+  }
   /* Learn Section */
+  .learn-section-heading {
+    font-size: 3.2rem;
+  }
 
-  /* }Chapters Section */
+  .learn-section-text {
+    font-size: 1.6rem;
+  }
+
+  .learn-list {
+    grid-template-columns: 1fr;
+  }
+  /* Chapters Section */
+  .chapters-section-heading {
+    font-size: 4rem;
+  }
+
+  .chapters-list-text {
+    font-size: 1.6rem;
+  }
+  .chapters-list-heading {
+    font-size: 1.6rem;
+  }
 
   /* Takeaways Section */
 
-  /* Course Details Section */
+  /* Summary List */
+  .summary-list {
+    padding: 4.8rem 0 1.6rem;
+  }
+  /* Target Section */
+  .target-section-heading {
+    font-size: 3.2rem;
+  }
 
-  /* Stats Section */
-}
-@media (max-width: ) {
-  /* Hero Section */
+  .target-section-text {
+    font-size: 1.6rem;
+  }
 
-  /* Learn Section */
-
-  /* }Chapters Section */
-
+  .target-list {
+    font-size: 1.6rem;
+  }
   /* Takeaways Section */
+  .takeaways-section-heading {
+    font-size: 3.2rem;
+  }
 
+  .takeaways-section-text {
+    font-size: 1.6rem;
+  }
   /* Course Details Section */
+  .contact-hero-section {
+    font-size: 3.2rem;
+  }
+  /* Author Section */
+  .info-section-heading {
+    font-size: 3.2rem;
+  }
 
   /* Stats Section */
+  .stats-list-heading {
+    font-size: 3.2rem;
+  }
+  .stats-section-text {
+    font-size: 1.6rem;
+  }
+  /* newsletter Section */
+  .newsletter-section-heading {
+    font-size: 3.2rem;
+  }
+
+  .newsletter-section-text {
+    font-size: 1.6rem;
+  }
+  /* Footer Section */
+  .footer-social-text {
+    font-size: 2.4rem;
+  }
+
+  .footer-links-container {
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+
+  .footer-links-list {
+    justify-content: center;
+  }
+
+  .copyright {
+    text-align: center;
+  }
 }
-@media (max-width: ) {
-  /* Hero Section */
 
-  /* Learn Section */
-
-  /* }Chapters Section */
-
-  /* Takeaways Section */
-
-  /* Course Details Section */
-
-  /* Stats Section */
-}
 /* 
 =====================
 Media Queries
