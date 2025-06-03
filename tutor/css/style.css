@@ -233,12 +233,6 @@ Learn Section
   gap: 2.4rem;
 }
 
-.learn-list-item {
-}
-
-.learn-list-img {
-}
-
 .learn-list-text {
   font-size: 1.6rem;
   line-height: 1.6;
@@ -395,9 +389,6 @@ Course Summary =====================
 Course Target 
 =====================
 */
-
-.target-section {
-}
 
 .target-section-container {
   display: flex;
@@ -1014,7 +1005,7 @@ Media Queries
   }
 
   .takeaways-list-img {
-    max-width: 1.6rem%;
+    max-width: 1.6rem;
   }
   /* Course Details Section */
   .details-section-container {
