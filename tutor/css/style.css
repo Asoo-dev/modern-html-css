@@ -947,6 +947,9 @@ Contact Section End
   line-height: 1.6;
 }
 
+.map {
+  max-width: 100%;
+}
 /* 
 =====================
 Contact Section End
@@ -1044,9 +1047,14 @@ Media Queries
   /* Stats Section */
 }
 @media (max-width: 36rem) {
+  /* Header */
+  .header-container {
+    height: 6rem;
+  }
+
   /* Hero Section */
   .hero-section-container {
-    padding: 12rem 1.6rem 4rem;
+    padding: 10rem 1.6rem 4rem;
     gap: 4rem;
   }
 
@@ -1252,6 +1260,37 @@ Media Queries
 
   .copyright {
     text-align: center;
+  }
+
+  /* Contact Hero Section */
+  .contact-hero-section {
+    padding: 10rem 0 4rem;
+  }
+
+  .contact-hero-section-container {
+    padding: 0 1.6rem;
+  }
+
+  .contact-hero-section-heading {
+    font-size: 4.8rem;
+  }
+
+  /* Contact Section */
+  .contact-section {
+    padding: 4rem 0;
+  }
+  .contact-section-container {
+    padding: 0 1.6rem;
+  }
+
+  .name-field,
+  .email-field,
+  .message-field {
+    padding: 2.4rem;
+  }
+
+  .location-section-heading {
+    font-size: 3.2rem;
   }
 }
 
