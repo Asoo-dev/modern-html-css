@@ -8,11 +8,15 @@
 
 html {
   font-size: 62.5%;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 body {
   font-family: "Inter", sans-serif;
   font-weight: 400;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 img {
@@ -135,6 +139,7 @@ hero section
 .hero-section {
   background-image: url(../images/header-background.jpg);
   background-size: cover;
+  overflow-x: hidden;
 }
 
 .hero-section-container {
@@ -161,7 +166,7 @@ hero section
 }
 
 .hero-section-text {
-  font-size: 1.6rem;
+  font-size: 2rem;
   line-height: 1.6;
   color: #fff;
 }
@@ -211,6 +216,7 @@ Learn Section
 .learn-section-heading {
   font-size: 4.8rem;
   font-weight: 700;
+  text-align: center;
 }
 
 .learn-section-text {
@@ -274,6 +280,7 @@ Chapters Section
 .chapters-section-heading {
   font-size: 4.8rem;
   font-weight: 700;
+  text-align: center;
 }
 
 .chapters-section-text {
@@ -306,6 +313,7 @@ Chapters Section
 .chapters-list-heading {
   font-size: 2rem;
   font-weight: 700;
+  text-align: center;
 }
 
 .chapters-list-text {
@@ -350,6 +358,7 @@ Course Summary
 .summary-section-heading {
   font-size: 4.8rem;
   font-weight: 700;
+  text-align: center;
 }
 
 .summary-list {
@@ -414,6 +423,7 @@ Course Target
 .target-section-heading {
   font-size: 4.8rem;
   font-weight: 700;
+  text-align: center;
 }
 
 .target-section-text {
@@ -431,7 +441,6 @@ Course Target
 .target-list-item {
   display: flex;
   gap: 1.2rem;
-  align-items: center;
 }
 
 .target-list-img {
@@ -474,6 +483,7 @@ Takeawayes Section
 .takeaways-section-heading {
   font-size: 4.8rem;
   font-weight: 700;
+  text-align: center;
 }
 
 .takeaways-section-text {
@@ -548,6 +558,7 @@ Course Details Section
 .details-section-heading {
   font-size: 4.8rem;
   font-weight: 700;
+  text-align: center;
 }
 
 .details-section-text {
@@ -599,6 +610,7 @@ Author Info Section
 .info-section-heading {
   font-size: 4.8rem;
   font-weight: 700;
+  text-align: center;
 }
 
 .info-section-text {
@@ -664,7 +676,9 @@ Stats Section
 
 .stats-list {
   display: flex;
+  justify-content: center;
   gap: 3.2rem;
+  flex-wrap: wrap;
   list-style: none;
 }
 
@@ -678,10 +692,11 @@ Stats Section
 .stats-list-heading {
   font-size: 4.8rem;
   font-weight: 700;
+  text-align: center;
 }
 
 .stats-list-text {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .stats-section-text {
@@ -727,6 +742,7 @@ Newsletter Section
 .newsletter-section-heading {
   font-size: 4.8rem;
   font-weight: 700;
+  text-align: center;
 }
 
 .newsletter-section-text {
@@ -786,6 +802,7 @@ Footer Section
 }
 .footer-social-text {
   font-size: 2.4rem;
+  text-align: center;
 }
 
 .social-list {
@@ -942,5 +959,134 @@ Contact Section End
 /* 
 =====================
 Contact Section End
+=====================
+*/
+
+/* 
+=====================
+Media Queries
+=====================
+*/
+
+@media (max-width: 75rem) {
+  .hero-section-img {
+    margin: 0;
+    width: 100%;
+    max-width: 50rem;
+  }
+}
+
+@media (max-width: 62rem) {
+  /* Hero Section */
+  .hero-section-container {
+    flex-direction: column;
+  }
+
+  .hero-section-content {
+    align-items: center;
+  }
+
+  .hero-section-heading {
+    text-align: center;
+  }
+
+  .hero-section-text {
+    text-align: center;
+  }
+  /* Learn Section */
+  .learn-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* }Chapters Section */
+  .chapters-list {
+    grid-template-columns: 1fr;
+  }
+
+  .chapters-list-img {
+    width: 20%;
+  }
+  /* Takeaways Section */
+  .takeaways-list {
+    grid-template-columns: 1fr;
+  }
+
+  .takeaways-list-item {
+    justify-content: center;
+  }
+
+  .takeaways-list-img {
+    max-width: 10%;
+  }
+  /* Course Details Section */
+  .details-section-container {
+    flex-direction: column;
+  }
+
+  .info-section-container {
+    flex-direction: column-reverse;
+  }
+  /* Stats Section */
+  .stats-section-container {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 48rem) {
+  /* Hero Section */
+
+  /* Learn Section */
+
+  /* }Chapters Section */
+
+  /* Audiance Section */
+ 
+  /* Takeaways Section */
+
+  /* Course Details Section */
+
+  /* Stats Section */
+}
+@media (max-width: ) {
+  /* Hero Section */
+
+  /* Learn Section */
+
+  /* }Chapters Section */
+
+  /* Takeaways Section */
+
+  /* Course Details Section */
+
+  /* Stats Section */
+}
+@media (max-width: ) {
+  /* Hero Section */
+
+  /* Learn Section */
+
+  /* }Chapters Section */
+
+  /* Takeaways Section */
+
+  /* Course Details Section */
+
+  /* Stats Section */
+}
+@media (max-width: ) {
+  /* Hero Section */
+
+  /* Learn Section */
+
+  /* }Chapters Section */
+
+  /* Takeaways Section */
+
+  /* Course Details Section */
+
+  /* Stats Section */
+}
+/* 
+=====================
+Media Queries
 =====================
 */
