@@ -376,6 +376,7 @@ Course Summary
 
 .summary-list-section-item {
   font-size: 1.6rem;
+  line-height: 1.6;
   padding: 3.2rem 1.6rem;
 }
 
@@ -707,7 +708,7 @@ Newsletter Section
 */
 
 .newsletter-section {
-  padding: 8rem 0;
+  padding: 8rem 2.4rem;
 }
 
 .newsletter-section-container {
@@ -1044,6 +1045,11 @@ Media Queries
 }
 @media (max-width: 36rem) {
   /* Hero Section */
+  .hero-section-container {
+    padding: 12rem 1.6rem 4rem;
+    gap: 4rem;
+  }
+
   .hero-section-heading {
     font-size: 4rem;
   }
@@ -1052,6 +1058,14 @@ Media Queries
     font-size: 1.6rem;
   }
   /* Learn Section */
+  .learn-section {
+    padding: 4rem 0;
+  }
+
+  .learn-section-container {
+    padding: 0 1.6rem;
+  }
+
   .learn-section-heading {
     font-size: 3.2rem;
   }
@@ -1064,8 +1078,28 @@ Media Queries
     grid-template-columns: 1fr;
   }
   /* Chapters Section */
+  .chapters-section {
+    padding: 4rem0;
+  }
+
+  .chapters-section-container {
+    padding: 0 1.6rem;
+  }
+
   .chapters-section-heading {
-    font-size: 4rem;
+    font-size: 3.2rem;
+  }
+
+  .chapters-section-text {
+    font-size: 1.6rem;
+  }
+
+  .chapters-list {
+    gap: 1.6rem;
+  }
+
+  .chapters-list-item {
+    padding: 3.2rem 1.6rem 1.6rem;
   }
 
   .chapters-list-text {
@@ -1075,13 +1109,28 @@ Media Queries
     font-size: 1.6rem;
   }
 
-  /* Takeaways Section */
-
   /* Summary List */
-  .summary-list {
-    padding: 4.8rem 0 1.6rem;
+  .summary-section {
+    padding: 4rem 0;
   }
+  .summary-section-heading {
+    font-size: 3.2rem;
+  }
+
+  .summary-list {
+    padding: 2.4rem 0 1.6rem;
+  }
+
+  .summary-list-section-item {
+    padding: 2.4rem 1.6rem;
+  }
+
   /* Target Section */
+  .target-section-content {
+    padding: 4rem 1.6rem;
+    gap: 1.6rem;
+  }
+
   .target-section-heading {
     font-size: 3.2rem;
   }
@@ -1091,9 +1140,21 @@ Media Queries
   }
 
   .target-list {
+    gap: 0.8rem;
+  }
+
+  .target-list {
     font-size: 1.6rem;
   }
   /* Takeaways Section */
+  .takeaways-section {
+    padding: 4rem 0;
+  }
+
+  .takeaways-section-container {
+    padding: 0 1.6rem;
+  }
+
   .takeaways-section-heading {
     font-size: 3.2rem;
   }
@@ -1101,16 +1162,54 @@ Media Queries
   .takeaways-section-text {
     font-size: 1.6rem;
   }
+
+  .takeaways-list {
+    gap: 1.6rem;
+  }
+
+  .takeaways-list-item {
+    padding: 1.6rem;
+  }
+
+  .takeaways-list-img {
+    width: 3.2rem;
+  }
   /* Course Details Section */
-  .contact-hero-section {
+
+  .details-section {
+    padding: 4rem 0;
+  }
+
+  .details-section-container {
+    padding: 0 1.6rem;
+    gap: 4rem;
+  }
+
+  .details-section-heading {
     font-size: 3.2rem;
   }
   /* Author Section */
+  .info-section {
+    padding: 4rem 0;
+  }
+
+  .info-section-container {
+    padding: 0 1.4rem;
+  }
+
   .info-section-heading {
     font-size: 3.2rem;
   }
 
   /* Stats Section */
+  .stats-section {
+    padding: 4rem 0;
+  }
+
+  .stats-section-container {
+    gap: 4rem;
+  }
+
   .stats-list-heading {
     font-size: 3.2rem;
   }
@@ -1118,6 +1217,14 @@ Media Queries
     font-size: 1.6rem;
   }
   /* newsletter Section */
+
+  .newsletter-section {
+    padding: 4rem 1.6rem;
+  }
+
+  .newsletter-section-container {
+    padding: 4em 1.6rem;
+  }
   .newsletter-section-heading {
     font-size: 3.2rem;
   }
@@ -1126,6 +1233,10 @@ Media Queries
     font-size: 1.6rem;
   }
   /* Footer Section */
+  .footer-social-container {
+    padding: 4rem 1.6rem;
+  }
+
   .footer-social-text {
     font-size: 2.4rem;
   }
