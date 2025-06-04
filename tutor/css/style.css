@@ -1070,6 +1070,7 @@ Media Queries
   /* Header */
   .header-container {
     height: 6rem;
+    padding: 0 1.6rem;
   }
 
   .logo {
