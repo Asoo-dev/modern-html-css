@@ -1,3 +1,59 @@
+:root {
+  /* Colors */
+  --CL-primary-color: #08c0dd;
+  --CL-secondary-color: #262431;
+  --CL-tertiary-color: #2f2c3d;
+  --CL-text-primary: #ffffff;
+  --CL-text-secondary: #9f9caf;
+  --CL-bg-elevated: #ffffff1a;
+
+  /* Border Radiuses */
+  --BR-large: 32px;
+  --BR-medium: 24px;
+  --BR-pill-or-circle: 1000px;
+
+  /* Font Family */
+  --FF-main: "Inter";
+
+  /* Font Sizes */
+  --FS-normal: 1.6rem;
+  --FS-medium: 1.8rem;
+  --FS-large: 2rem;
+  --FS-x-large: 2.4rem;
+  --FS-xx-large: 4rem;
+  --FS-xxx-large: 4.8rem;
+  --FS-xxxx-large: 5.6rem;
+
+  /* Line Height */
+  --LH-normal: normal;
+  --LH-large: 1.6;
+
+  /* Font Weights */
+  --FW-regular: 400;
+  --FW-bold: 700;
+
+  /* Font Styles */
+  --FST-italic: italic;
+
+  /*==========*/
+  /* Spacing */
+  /*==========*/
+
+  /* Containers Width */
+  --CO-xx-large: 120rem;
+  --CO-x-large: 110rem;
+  --CO-large: 90rem;
+  --CO-medium: 60rem;
+  --CO-normal: 50rem;
+  --CO-small: 35rem;
+
+  /* Paddings */
+
+  /* Margines */
+
+  /* Gaps */
+}
+
 *,
 ::before,
 ::after {
@@ -11,7 +67,7 @@ html {
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: var(--FF-main), sans-serif;
 }
 
 img {
@@ -27,8 +83,5 @@ li {
 }
 
 /* ===== Utilities ===== */
-
-
-
 
 /* ===== Utilities ===== */
