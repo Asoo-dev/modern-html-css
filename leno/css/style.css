@@ -88,7 +88,7 @@ li {
 
 /* ==== Utilities ==== */
 .section {
-  padding: 3.2rem 9.6rem;
+  padding: 9.6rem 3.2rem;
 }
 
 .container-xxl {
@@ -225,3 +225,53 @@ li {
   box-shadow: inset 0 0 0 2px var(--CL-primary-color);
 }
 /* ==== Hero Sec End ==== */
+
+/* ==== Testiomnial Sec ==== */
+
+.testimonials {
+  display: flex;
+  gap: 3.2rem;
+  justify-content: space-between;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  align-items: center;
+}
+
+.testimonial img {
+  width: 9.6rem;
+  border-radius: var(--BR-pill-or-circle);
+}
+
+.testimonial p {
+  font-size: var(--FS-normal);
+  font-style: var(--FST-italic);
+  line-height: var(--LH-large);
+  text-align: center;
+}
+
+.h4 {
+  font-size: var(--FS-x-large);
+  font-weight: var(--FW-bold);
+}
+/* ==== Testiomnial Sec End ==== */
+
+/* ==== Takeaways Sec ==== */
+
+.h2 {
+  font-size: var(--FS-xxx-large);
+  font-weight: var(--FW-bold);
+  text-transform: uppercase;
+  margin: 0 auto 3.2rem;
+}
+
+.takeawats-section p {
+  max-width: var(--CO-medium);
+  font-size: var(--FS-normal);
+  margin: 0 auto 6.4rem;
+  text-align: center;
+}
+/* ==== Takeaways Sec End ==== */
