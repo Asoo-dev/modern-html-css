@@ -16,13 +16,13 @@
   --FF-main: "Inter";
 
   /* Font Sizes */
-  --FS-normal: 1.6rem;
-  --FS-medium: 1.8rem;
-  --FS-large: 2rem;
-  --FS-x-large: 2.4rem;
-  --FS-xx-large: 4rem;
-  --FS-xxx-large: 4.8rem;
-  --FS-xxxx-large: 5.6rem;
+  --FS-small: 1.6rem;
+  --FS-normal: 1.8rem;
+  --FS-medium: 2rem;
+  --FS-large: 3.2rem;
+  --FS-x-large: 4rem;
+  --FS-xx-large: 4.8rem;
+  --FS-xxx-large: 5.6rem;
 
   /* Line Height */
   --LH-normal: normal;
@@ -68,6 +68,7 @@ html {
 
 body {
   font-family: var(--FF-main), sans-serif;
+  font-size: var(--FS-small);
   font-weight: var(--FW-regular);
   color: var(--CL-text-primary);
   background-color: #2f2c3d;
@@ -131,7 +132,7 @@ li {
 
 .nav-link:link,
 .nav-link:visited {
-  font-size: var(--FS-normal);
+  font-size: var(--FS-small);
   font-weight: var(--FW-bold);
   color: var(--CL-text-primary);
   transition: all 0.25s;
@@ -186,7 +187,7 @@ li {
 }
 
 .h1 {
-  font-size: var(--FS-xxxx-large);
+  font-size: var(--FS-xxx-large);
   font-weight: var(--FW-bold);
   text-transform: uppercase;
 }
@@ -196,7 +197,7 @@ li {
 }
 
 .hero-content p {
-  font-size: var(--FS-large);
+  font-size: var(--FS-medium);
   line-height: var(--LH-large);
 }
 
@@ -207,13 +208,13 @@ li {
 
 .btn:link,
 .btn:active {
-  font-size: var(--FS-normal);
+  font-size: var(--FS-small);
   font-weight: var(--FW-bold);
   background-color: var(--CL-primary-color);
   color: var(--CL-text-primary);
   border-radius: var(--BR-pill-or-circle);
   padding: 1.6rem 3.6rem;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 1.2rem;
   transition: all 0.25s;
@@ -229,9 +230,9 @@ li {
 /* ==== Testiomnial Sec ==== */
 
 .testimonials {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 3.2rem;
-  justify-content: space-between;
 }
 
 .testimonial {
@@ -247,14 +248,14 @@ li {
 }
 
 .testimonial p {
-  font-size: var(--FS-normal);
+  font-size: var(--FS-small);
   font-style: var(--FST-italic);
   line-height: var(--LH-large);
   text-align: center;
 }
 
 .h4 {
-  font-size: var(--FS-x-large);
+  font-size: var(--FS-medium);
   font-weight: var(--FW-bold);
 }
 /* ==== Testiomnial Sec End ==== */
@@ -262,7 +263,7 @@ li {
 /* ==== Takeaways Sec ==== */
 
 .h2 {
-  font-size: var(--FS-xxx-large);
+  font-size: var(--FS-x-large);
   font-weight: var(--FW-bold);
   text-transform: uppercase;
   margin: 0 auto 3.2rem;
@@ -271,7 +272,7 @@ li {
 
 .section-description {
   max-width: var(--CO-medium);
-  font-size: var(--FS-normal);
+  font-size: var(--FS-small);
   margin: 0 auto 6.4rem;
   text-align: center;
 }
@@ -313,7 +314,7 @@ li {
 }
 
 .takeaway-content p {
-  font-size: var(--FS-normal);
+  font-size: var(--FS-small);
   line-height: var(--LH-large);
 }
 /* ==== Takeaways Sec End ==== */
@@ -390,3 +391,63 @@ li {
 }
 
 /* ==== Preview Sec End ==== */
+
+/* ==== Details Sec ==== */
+
+.details {
+  padding-bottom: 0;
+}
+
+.details-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+}
+
+.detail {
+  display: flex;
+  align-items: center;
+  gap: 8rem;
+}
+
+.detail + .detail {
+  flex-direction: row-reverse;
+}
+
+.detail-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3.2rem;
+}
+
+.h3 {
+  font-size: var(--FS-large);
+  font-weight: var(--FW-bold);
+}
+
+.detail-content p {
+  font-size: var(--FS-small);
+  line-height: var(--LH-large);
+}
+/* ==== Details Sec End ==== */
+
+/* ==== Stats Sec ==== */
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  gap: 3.2rem;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.stat img {
+  height: 6.4rem;
+}
+/* ==== Stats Sec End ==== */
