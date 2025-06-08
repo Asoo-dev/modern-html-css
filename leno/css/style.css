@@ -470,3 +470,38 @@ li {
   width: 20rem;
 }
 /* ==== Screenshot Sec End ==== */
+
+/* ==== Download Sec End ==== */
+
+.download {
+  background: url(../images/download-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.download-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.download-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.download-content p {
+  max-width: var(--CO-normal);
+  font-size: var(--FS-medium);
+  line-height: var(--LH-large);
+  text-align: center;
+}
+
+.download-container img {
+  max-width: var(--CO-normal);
+}
+/* ==== Download Sec End ==== */
