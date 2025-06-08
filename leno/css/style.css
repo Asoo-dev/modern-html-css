@@ -266,12 +266,54 @@ li {
   font-weight: var(--FW-bold);
   text-transform: uppercase;
   margin: 0 auto 3.2rem;
+  text-align: center;
 }
 
-.takeawats-section p {
+.section-description {
   max-width: var(--CO-medium);
   font-size: var(--FS-normal);
   margin: 0 auto 6.4rem;
   text-align: center;
+}
+
+.takeaways-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3.2rem;
+}
+
+.takeaways {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6.4rem;
+}
+.takeaways-left .takeaway {
+  flex-direction: row-reverse;
+}
+
+.takeaways-left .takeaway-content {
+  text-align: right;
+}
+
+.takeaway {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.takeaway img {
+  width: 4.8rem;
+}
+
+.takeaway-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.takeaway-content p {
+  font-size: var(--FS-normal);
+  line-height: var(--LH-large);
 }
 /* ==== Takeaways Sec End ==== */
