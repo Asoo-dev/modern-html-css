@@ -451,3 +451,22 @@ li {
   height: 6.4rem;
 }
 /* ==== Stats Sec End ==== */
+
+/* ==== Screenshot Sec ==== */
+
+.h2.heading-underline {
+  width: 32rem;
+  border-bottom: 2px solid var(--CL-primary-color);
+}
+
+.screenshots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.screenshots img {
+  width: 20rem;
+}
+/* ==== Screenshot Sec End ==== */
