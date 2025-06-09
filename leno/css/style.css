@@ -117,6 +117,7 @@ li {
   height: 8rem;
   position: fixed;
   width: 100%;
+  padding: 0 3.2rem;
 }
 
 .header nav {
@@ -163,6 +164,16 @@ li {
   fill: var(--CL-primary-color);
 }
 
+.menu-btn {
+  display: none;
+  background: none;
+  border: none;
+}
+
+.menu {
+  display: block;
+  fill: var(--CL-text-primary);
+}
 /* ==== Header End ==== */
 
 /* ==== Hero Sec ==== */
@@ -782,6 +793,38 @@ li {
 
 /* ==== max-swidth: 768px ==== */
 @media (max-width: 48rem) {
+  /* Utilities */
+  .section {
+    padding: 4.8rem 1.6rem;
+  }
+  /* Header */
+  .header {
+    height: 6rem;
+    padding: 0 1.6rem;
+  }
+  .logo img {
+    height: 2.4rem;
+  }
+  .nav-list {
+    display: none;
+  }
+  .menu-btn {
+    display: block;
+  }
+  /* Hero Sec */
+  .hero {
+    padding: 14rem 1.6rem 8rem;
+  }
+  .h1 {
+    font-size: var(--FS-xx-large);
+  }
+  /* Testimonail Sec */
+  .testimonials {
+    grid-template-columns: 1fr;
+  }
+  .testimonial:not(:first-child) {
+    display: none;
+  }
 }
 
 /* ==== Media Queries End ==== */
