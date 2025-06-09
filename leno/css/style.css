@@ -753,6 +753,31 @@ li {
   .stat {
     gap: 1.6rem;
   }
+  /* Download Sec */
+
+  .download-container {
+    align-items: center;
+    flex-direction: column-reverse;
+    gap: 3.2rem;
+  }
+  .download-content {
+    align-items: stretch;
+  }
+  /* Footer */
+  .footer-container {
+    max-width: var(--CO-medium);
+    grid-template-columns: 1fr;
+    gap: 4rem;
+    /* justify-content: center; */
+  }
+  .about,
+  .footer-nav {
+    align-items: center;
+    text-align: center;
+  }
+  .footer-nav ul {
+    align-items: center;
+  }
 }
 
 /* ==== max-swidth: 768px ==== */
