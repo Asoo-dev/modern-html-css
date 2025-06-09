@@ -190,7 +190,7 @@ li {
 }
 
 .hero-container img {
-  max-width: 50rem;
+  max-width: var(--CO-normal);
 }
 
 .h1 {
@@ -222,6 +222,7 @@ li {
   border-radius: var(--BR-pill-or-circle);
   padding: 1.6rem 3.6rem;
   display: inline-flex;
+  justify-content: center;
   align-items: center;
   gap: 1.2rem;
   transition: all 0.25s;
@@ -678,3 +679,61 @@ li {
 }
 
 /* ==== Features Sec End ==== */
+
+/* ==== Media Queries ==== */
+
+/* ==== max-swidth: 992px ==== */
+@media (max-width: 62rem) {
+  /* Hero Sec */
+  .hero-container {
+    flex-direction: column;
+    gap: 3.2rem;
+  }
+  .hero-content {
+    gap: 2.4rem;
+    text-align: center;
+  }
+  .btn-group {
+    flex-direction: column;
+  }
+  .hero-container img {
+    max-width: 35rem;
+  }
+  /* Testimonail Sec */
+  .testimonials {
+    grid-template-columns: 1fr 1fr;
+    gap: 6.4rem;
+  }
+  .testimonial:last-child {
+    display: none;
+  }
+  /* Takeaways Sec */
+  .takeaways-container {
+    grid-template-columns: 1fr;
+    gap: 4.8rem;
+  }
+  .takeaways {
+    gap: 4.8rem;
+    align-items: center;
+  }
+  .takeaway {
+    max-width: 40rem;
+    flex-direction: column !important;
+    gap: 1.6rem;
+  }
+  .takeaway-content {
+    align-items: center;
+    text-align: center !important;
+  }
+  .takeaways-img {
+    grid-row: 1;
+    max-width: 30rem;
+    justify-self: center;
+  }
+}
+
+/* ==== max-swidth: 768px ==== */
+@media (max-width: 48rem) {
+}
+
+/* ==== Media Queries End ==== */
