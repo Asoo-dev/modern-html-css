@@ -628,3 +628,19 @@ li {
   line-height: var(--LH-large);
 }
 /* ==== Pricing Sec End ==== */
+
+/* ==== pricing-notes Se ==== */
+
+.pricing-notes {
+  padding: 4.8rem 3.2rem;
+}
+
+.pricing-notes-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  color: var(--CL-text-secondary);
+}
+
+/* ==== pricing-notes Sec End ==== */
