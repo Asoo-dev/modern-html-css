@@ -408,6 +408,7 @@ li {
 
 .details-flex {
   display: flex;
+  align-items: center;
   flex-direction: column;
   gap: 4.8rem;
 }
@@ -697,7 +698,7 @@ li {
     flex-direction: column;
   }
   .hero-container img {
-    max-width: 35rem;
+    max-width: var(--CO-small);
   }
   /* Testimonail Sec */
   .testimonials {
@@ -729,6 +730,28 @@ li {
     grid-row: 1;
     max-width: 30rem;
     justify-self: center;
+  }
+  /* Details Sec */
+  .details-flex {
+    gap: 6.4rem;
+  }
+  .detail {
+    max-width: 40rem;
+    flex-direction: column !important;
+    gap: 4.8rem;
+    text-align: center;
+  }
+  .detail-content {
+    align-items: center;
+    gap: 2.4rem;
+  }
+  /* Stats Sec */
+  .stats {
+    flex-direction: column;
+    gap: 4rem;
+  }
+  .stat {
+    gap: 1.6rem;
   }
 }
 
