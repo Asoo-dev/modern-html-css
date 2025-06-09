@@ -640,7 +640,41 @@ li {
   flex-direction: column;
   align-items: center;
   gap: 0.8rem;
+}
+
+.pricing-notes-container p {
+  font-size: var(--FS-small);
   color: var(--CL-text-secondary);
+  text-align: center;
 }
 
 /* ==== pricing-notes Sec End ==== */
+
+/* ==== Features Sec ==== */
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 5.6rem;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+  padding: 2.4rem;
+  border-radius: var(--BR-medium);
+  background-color: var(--CL-bg-elevated);
+}
+
+.feature img {
+  width: 6.4rem;
+}
+
+.feature-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+/* ==== Features Sec End ==== */
