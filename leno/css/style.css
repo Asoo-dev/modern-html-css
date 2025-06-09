@@ -505,3 +505,60 @@ li {
   max-width: var(--CO-normal);
 }
 /* ==== Download Sec End ==== */
+
+/* ==== Footer Sec ==== */
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8rem;
+}
+
+.about,
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.about p {
+  font-size: var(--FS-small);
+  line-height: var(--LH-large);
+  color: var(--CL-text-secondary);
+}
+
+.footer-nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.4rem;
+}
+
+.footer-nav .nav-link:link,
+.footer-nav .nav-link:visited {
+  color: var(--CL-text-secondary);
+}
+.footer-nav .nav-link:hover,
+.footer-nav .nav-link:active {
+  color: var(--CL-text-primary);
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.social-icon:link svg,
+.social-icon:visited svg {
+  display: block;
+  height: 4.8rem;
+  fill: var(--CL-text-secondary);
+}
+
+.social-icon:hover svg,
+.social-icon:active svg {
+  fill: var(--CL-text-primary);
+}
+/* ==== Footer Sec End ==== */
