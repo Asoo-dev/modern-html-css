@@ -71,7 +71,6 @@ body {
   font-size: var(--FS-small);
   font-weight: var(--FW-regular);
   color: var(--CL-text-primary);
-  background-color: #2f2c3d;
 }
 
 img {
@@ -100,6 +99,14 @@ li {
 .container-xl {
   max-width: 110rem;
   margin: 0 auto;
+}
+
+.bg-secondary {
+  background-color: var(--CL-secondary-color);
+}
+
+.bg-tertiary {
+  background-color: var(--CL-tertiary-color);
 }
 
 /* ==== Utilities ==== */
@@ -563,10 +570,61 @@ li {
 }
 /* ==== Footer Sec End ==== */
 
-/* ==== Details hero Sec End ==== */
+/* ==== Details hero Sec ==== */
 
 /* ==== Details hero Sec End ==== */
 
-/* ====  Sec End ==== */
+/* ==== Pricing Sec ==== */
+.plans {
+  display: flex;
+  justify-content: space-between;
+  gap: 3.2rem;
+}
 
-/* ====  Sec End ==== */
+.pricing-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+  padding: 4rem;
+  background-color: var(--CL-bg-elevated);
+  border-radius: var(--BR-large);
+}
+
+.card-header {
+  text-align: center;
+}
+
+.card-header .h1 {
+  text-transform: capitalize;
+  margin-top: 1.2rem;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.card-list li {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.card-list li img {
+  height: 1.6rem;
+}
+
+.card-list li span {
+  font-size: var(--FS-small);
+  line-height: var(--LH-large);
+}
+/* ==== Pricing Sec End ==== */
