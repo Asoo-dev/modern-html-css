@@ -195,13 +195,15 @@ li {
 
 .hero-content {
   max-width: 50rem;
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 3.2rem;
 }
 
-.hero-container img {
+.hero-container > img {
   max-width: var(--CO-normal);
+  width: 100%;
 }
 
 .h1 {
@@ -521,8 +523,9 @@ li {
   text-align: center;
 }
 
-.download-container img {
+.download-container > img {
   max-width: var(--CO-normal);
+  width: 100%;
 }
 /* ==== Download Sec End ==== */
 
@@ -714,7 +717,7 @@ li {
   .btn-group {
     flex-direction: column;
   }
-  .hero-container img {
+  .hero-container > img {
     max-width: var(--CO-small);
   }
   /* Testimonail Sec */
@@ -745,8 +748,9 @@ li {
   }
   .takeaways-img {
     grid-row: 1;
-    max-width: 30rem;
     justify-self: center;
+    max-width: 30rem;
+    width: 100%;
   }
   /* Details Sec */
   .details-flex {
@@ -830,6 +834,11 @@ li {
   }
   .testimonial:not(:first-child) {
     display: none;
+  }
+  /* Screenshots Sec */
+  .h2.heading-underline {
+    width: auto;
+    border-bottom: 2px solid var(--CL-primary-color);
   }
   /* Pricing Sec */
   .plans {
